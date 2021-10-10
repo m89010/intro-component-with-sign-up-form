@@ -1,6 +1,6 @@
 # intro-component-with-sign-up-form
 devedoping frontend learning
-###coded by 
+### Coded by 
 Hamed Mashhadi
 ### Screenshot
 
