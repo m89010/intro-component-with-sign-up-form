@@ -1,0 +1,57 @@
+<htm>
+    <head>
+        <title>
+            intro-component-with-signup-form
+        </title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+
+
+    </head>
+    <body>
+        <section>
+            <div id="head1">
+                <h1>Learn to code by<br/> watching others </h1><br/><br/>
+                <h3>See how experienced developers solve problems in real-time.<br/>
+                     Watching scripted tutorials is great, but understanding how <br/>
+                     developers think is invaluable. 
+                </h3>
+            </div>
+            <div class="register">
+                <div id="try">
+                    <p id="p1"> Try it free 7 days</p><p id="p2"> &nbsp then $20/mo. thereafter</p>
+    
+                </div>
+    
+                <form id="form1">
+                    <input type="text" id="name" placeholder="Name" oninput=" alertblock('namealert','name')">
+                    <h4 id="namealert" name="namealert"></h4> 
+                    <input type="text" id="lastName" placeholder="LastName"oninput=" alertblock('lnamealert','lastName')">
+                    <h4 id="lnamealert"></h4>
+                    <input type="email" id="email" placeholder="Email Address" oninput=" alertblock('emailalert','email')"
+                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <h4 id="emailalert"></h4>      
+                    <input type="password" id="password" placeholder="Password"oninput=" alertblock('passalert','password')">
+                    <h4 id="passalert"></h4> 
+                    <input  type="button" id="claimbutton" value="CLAIM YOUR FREE TRIAL" onclick="alertfunction()"></button>
+                    <div id="footer">
+                        <P id="p3">By clicking the button, you are agreeing to our</P><p id="p4">&nbsp Terms and Services</P>   
+                        </div>
+                     
+                   
+    
+                </form>
+    
+    
+    
+            </div>
+           
+
+        </section>
+
+       
+    </body>
+
+
+
+</htm>
